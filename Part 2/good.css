@@ -1,0 +1,81 @@
+body{
+	margin: 0px;
+}
+.titlebar{
+	height: 100px;
+	background-color: #3385FF;
+	color: white;
+	text-align: center;
+}
+#h1{
+	font-size: 60pt;
+	font-weight: bold;
+}
+.h2{
+	font-size: 24pt;
+	/*margin-left: 10%;*/
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.h3{
+	font-size: 21pt;
+	font-weight: bold;
+	line-height: 130%;
+}
+.h4{
+	font-size: 18pt;
+	line-height: 130%;
+}
+ul {
+    list-style-type: circle;
+    /*padding: 0px;*/
+    margin: 5px;
+	text-align: left;
+}
+li {
+	display: list-item;
+	margin-left: 1em;
+	list-style: disc outside none;
+}
+.jobs{
+	margin-left: 5%;
+}
+#navbar{
+	background-color: #808080;	
+	color: white;
+	text-align: center;
+	height: 50px;
+}
+.navlink{
+	display:inline-block;
+	vertical-align: middle;
+	font-size: 18pt;
+	margin: 15px;
+}
+#main{
+	width:70%;
+	display:inline;
+	float:left;
+	padding: 10px;
+}
+#sidebar{
+	width: 25%;
+	display:inline;
+	background-color: #C2C2C2;
+	float: right;
+	padding: 10px;
+	text-align: center;
+	height: 120vh;
+}
+#sidebar_inner{
+	text-align: left;
+}
+.inline-image{
+	float: left;
+	display: inline;
+	margin: 10px;
+}
+#pagebody {
+	font-size: 18pt;
+}
