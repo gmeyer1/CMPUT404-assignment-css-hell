@@ -3,6 +3,9 @@ Assignment: CSS Hell
 
 You will skin 3 project gutenberg stories with custom CSS.
 
+Modifications to gutenberg html documents:
+- Removed existing CSS and replaced with link to custom stylesheet
+
 You will skin 2 versions of a possible professional homepage for your
 self with 2 versions of CSS.
 

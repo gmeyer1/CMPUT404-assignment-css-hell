@@ -1,0 +1,57 @@
+body { 
+	margin:5%; 
+	background:#FFFFE0; 
+	text-align:justify; 
+	font-family:serif
+}
+	
+P { 
+	text-indent: 1em; 
+	margin-top: .25em; 
+	margin-bottom: .25em; 
+}
+
+H1,H2,H3,H4,H5 { 
+	text-align: center; 
+	margin-left: 15%; 
+	margin-right: 15%; 
+}
+
+hr  { 
+	width: 50%; 
+	text-align: center;
+}
+
+blockquote {
+	font-size: 97%; 
+	font-style: italic; 
+	margin-left: 10%; 
+	margin-right: 10%;
+}
+
+.toc       { 
+	margin-left: 10%; 
+	margin-bottom: .75em;
+}
+
+div.fig    { 
+	display:block; 
+	margin:0 auto; 
+	text-align:center; 
+}
+
+p.pfirst, p.noindent {
+	text-indent: 0
+}
+
+span.dropcap         { 
+	float: left; 
+	margin: 0 0.1em 0 0; 
+	line-height: .8 
+}
+
+pre        { 
+	font-style: italic; 
+	font-size: 90%; 
+	margin-left: 10%;
+}
