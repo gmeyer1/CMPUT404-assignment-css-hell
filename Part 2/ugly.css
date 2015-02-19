@@ -1,13 +1,13 @@
 body{
 	margin: 0px;
 	font-size: 18pt;
+	background-color: #000099;
 }
 .titlebar{
 	height: 100px;
-	background-color: #3385FF;
+	background-color: #FFFF00;
 	color: white;
 	text-align: center;
-	width: 75%;
 }
 #h1{
 	font-size: 60pt;
@@ -33,7 +33,6 @@ ul {
     list-style-type: circle;
     /*padding: 0px;*/
     margin: 5px;
-	text-align: left;
 }
 li {
 	display: list-item;
@@ -50,7 +49,7 @@ li {
 	height: 50px;
 }
 #main{
-	width:72%;
+	width:75%;
 	display:inline;
 	float:left;
 	padding: 10px;
@@ -63,13 +62,13 @@ li {
 	padding: 10px;
 	text-align: center;
 	position:fixed;
-	bottom:0px;
-	right:0px;
-	top:0px;
 }
 .inline-image{
 	float: left;
 	display: inline;
 	margin: 10px;
 	size: 25%;
+}
+#pagebody {
+	font-size: 18pt;
 }
