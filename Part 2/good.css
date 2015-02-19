@@ -1,25 +1,27 @@
 body{
 	margin: 0px;
+	font-size: 18pt;
 }
 .titlebar{
 	height: 100px;
 	background-color: #3385FF;
 	color: white;
 	text-align: center;
+	width: 75%;
 }
 #h1{
 	font-size: 60pt;
 	font-weight: bold;
 }
 .h2{
-	font-size: 24pt;
+	font-size: 28pt;
 	/*margin-left: 10%;*/
 	margin-top: 15px;
 	margin-bottom: 15px;
 	font-weight: bold;
 }
 .h3{
-	font-size: 21pt;
+	font-size: 24pt;
 	font-weight: bold;
 	line-height: 130%;
 }
@@ -38,23 +40,17 @@ li {
 	margin-left: 1em;
 	list-style: disc outside none;
 }
-.jobs{
-	margin-left: 5%;
+.indent{
+	margin-left: 50px;
 }
-#navbar{
+#navigation{
 	background-color: #808080;	
 	color: white;
 	text-align: center;
 	height: 50px;
 }
-.navlink{
-	display:inline-block;
-	vertical-align: middle;
-	font-size: 18pt;
-	margin: 15px;
-}
 #main{
-	width:70%;
+	width:72%;
 	display:inline;
 	float:left;
 	padding: 10px;
@@ -66,7 +62,10 @@ li {
 	float: right;
 	padding: 10px;
 	text-align: center;
-	height: 120vh;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	top:0px;
 }
 #sidebar_inner{
 	text-align: left;
@@ -75,6 +74,7 @@ li {
 	float: left;
 	display: inline;
 	margin: 10px;
+	size: 25%;
 }
 #pagebody {
 	font-size: 18pt;
